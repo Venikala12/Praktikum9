@@ -1,3 +1,6 @@
+### Nama : Veronika Natalia Kala
+### NIM  : 312210690
+### Kelas : TI.22.A.2
 # Praktikum 9 
 ## Exception and Handling
 #### Contoh Assert Statement
@@ -17,9 +20,17 @@
 - Jika Anda tidak memiliki izin untuk membuka file dalam mode tulis yang dapat ditulis, maka ini akan menghasilkan hasil berikut:
 ![gambar](gambar/9.4.1.png)
 - Contoh yang sama dapat ditulis lebih bersih sebagai berikut:
-![gambar](gambar/9.5.png)
+![gambar](gambar/9.4.png)
 #### Contoh Argument of an Exception
 - Berikut adalah contoh untuk satu pengecualian
 - Ketika kode di atas dijalankan, menghasilkan hasil sebagai berikut:
-![gambar](gambar/9.6.png)
+![gambar](gambar/9.5.png)
 #### Contoh Raising an Exception
+- Pengecualian dapat berupa string, kelas, atau objek. Sebagian besar pengecualian adalah pengecualian dari inti Python menimbulkan adalah kelas, dengan argumen=argumen yang merupakan turunan dari kelas. Mendefinisikan pengecualian barucukup mudah dan dapat dilakukan sebagai berikut:
+![gambar](gambar/9.6.png)
+#### Contoh User-Defined Exception
+- Python juga memungkinkan Anda membuat pengecualian sendiri dengan menurunkan kelas-kelas dari yang standar pengecualian bawaan.
+- Berikut adalah contoh-contoh yang terkait dengan RuntimeError. Di sini, kelas dibuat yang merupakan subkelas dari subkelas RuntimeError. Ini berguna saat Anda perlumenampilkan tampilan informasi yang lebih spesifik saat e pengecualian tertangkap.
+- Di blok coba, pengecualian yang ditentukan pengguna dimunculkan dan ditangkap di blok kecuali. Itu variabel e digunakan untuk membuat instance dari kelas Networkerror.
+- Ketika kode di atas dijalankan, menghasilkan hasil sebagai berikut:
+![gambar](gambar/9.7.png)
